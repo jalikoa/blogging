@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Background Color Changer</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Background Color Changer</h1>
+
+    <!-- File input to upload an image -->
+    <input type="file" id="imageUploader" accept="image/*">
+    
+    <!-- Color picker to select background color -->
+    <label for="bgColorPicker">Choose Background Color:</label>
+    <input type="color" id="bgColorPicker" value="#ffffff">
+    
+    <!-- Canvas for displaying the image -->
+    <canvas id="canvas"></canvas>
+
+    <script>
+        document.getElementById('imageUploader').addEventListener('change', handleImageUpload);
+        document.getElementById('bgColorPicker').addEventListener('input', updateBackgroundColor);
+
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            const img = new Image();
+
+            if (!file) return; // Exit if no file is selected
+
+            // Set image source and handle load
+            img.src = URL.createObjectURL(file);
+            img.onload = () => {
+                canvas.width = img.width;
+                canvas.height = img.height;
+
+                // Check if the image is a PNG
+                if (file.type !== 'image/png') {
+                    // Get the selected background color
+                    const backgroundColor = document.getElementById('bgColorPicker').value;
+
+                    // Draw the background color
+                    ctx.fillStyle = backgroundColor;
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                }
+                
+                // Draw the image on top
+                ctx.drawImage(img, 0, 0);
+            };
+        }
+
+        function updateBackgroundColor() {
+            // Redraw the image if a new background color is selected
+            const imageUploader = document.getElementById('imageUploader');
+            if (imageUploader.files.length > 0) {
+                handleImageUpload({ target: imageUploader });
+            }
+        }
+    </script>
+
+</body>
+</html>

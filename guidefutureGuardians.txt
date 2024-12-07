@@ -1,0 +1,12 @@
+The discussions can add a forum for the discussions 
+If admin of the community can add an admin 
+Can only make the admin send message to the forum 
+Can manage users of the discussion held i.e delete and block from sending text
+Can do away with the discusion forum Make it private or public
+Change the forum name and logo as well
+Should show people who are currently typing 
+Should show people who are active and online right away
+
+Admin landing page overview of the system users,forums,assets ie videos books and images all should have the abiltity to manage each
+	Aprove all the appending discussion forums that need to be added 
+

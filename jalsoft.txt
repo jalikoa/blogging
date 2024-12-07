@@ -1,0 +1,23 @@
+	Blogging site preparation
+
+
+	 This site is prepared to be for a blogger,a markerter and any other jobs like working with the media
+	 The hsite is suppose to allow the admin and the user of the site to access the site 
+	 The admin can seamlessly chat the users via a chat interface and as well they can have an audio as well as an video conference
+	 The admin can post a blog edit a blog or post a blog and set it a maximum time for it to last on the timeline
+	 The users can post and comment on the posted blog they can as well react on the blog that is they can like rate down or get angry as well as laugh on it 
+	 They can as well reply and send a feedback to the admin based on a specific blog that is posted on the site
+	 The replies can be approved by the admin and as well can get approved through machine learning models
+	 The admin has the ability to edit and change the appearance of some parts of the site
+	 The admin can as well change the logo of the site
+	 The site can be optimised clearing some of the blogs that have been posted or clearing some comments
+	 To optimise the front end loading the blogs should apear on the page as the user scrolls the page 
+	 The site should have a properly authenticated and athorised user roles
+	 The admin has the full control over the site thatis can add a new admin assist and cab as well remove the admin assits
+	 The page should allow the admin edit pictures to post on the site
+	 The site has the animate on scroll effect then should also have bootstrap used as well as sweetalert library
+	 The site should be an ajax application and should have the object oriented paradigmn in use for more structured way of coding 
+	 The user can view a blog and all the comments minus logging in but cannot comment or react to a blog minus logging in or signing up
+	 The user can login or signup using email or login with the social media accounts 
+	 The site should also have an intergration to the social media that is a product that is posted can be also transferred to the socila media accs i.e fb x
+	 The 

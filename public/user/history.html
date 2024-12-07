@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History page</title>
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="../assets/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../assets/icons/bootstrap-icons.min.css">
+</head>
+<body>
+
+<!-- The header comes here -->
+ <header>
+    <div class="container text-light">
+            <span class="bi bi-phone me-3 mt-3"> +254 700827433</span>&nbsp;<span class="bi bi-envelope me-3 mt-5"> calvo@gmail.com</span>
+    </div>
+ </header>
+<!-- This is the beginning of the sidebar -->
+ <section class="sidebar">
+    <div class="sidebar-contents">
+        <div class="sidebar-item">
+            <i class="bi bi-house"></i> Home
+        </div>
+        <div class="sidebar-item">
+            <i class="bi bi-gear"></i> Profile settings
+             <!--Add an accordion in this menu option-->
+        </div>
+        <div class="sidebar-item item-active">
+            <i class="bi bi-clock-fill"></i> History
+        </div>
+        <div class="sidebar-item">
+            <i class="bi bi-check-circle"></i> About us
+        </div>
+        <div class="sidebar-item">
+            <i class="bi bi-envelope"></i> Chats
+        </div>
+        <div class="sidebar-item">
+            <i class="bi bi-send"></i> Feedback
+        </div>
+    </div>
+ </section>
+
+
+    <!-- This is the begginning of the main contents -->
+     <div class="main-body">
+        <div class="container">
+            <div class="row mt-2">
+                <h4 class="text-secondary mt-3 mb-3">
+                    History
+                </h4>
+                    <!-- Here is the search tab the search form-->
+                     <div class="mb-3">
+                        <form action="" role="form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" required placeholder="Search recent activity">
+                                <button class="btn btn-secondary bi bi-search input-group-addon"></button>
+                            </div>
+                        </form>
+                     </div>
+                
+            </div>
+            <!-- This is the beggining of the history page -->
+             <div class="row">
+                <div class="col col-lg-8 bg-white p-3 ms-4">
+                    <i class="bi bi-clock text-muted"> Recent activity</i>
+                    
+                    <div class="history-container position-relative">
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Edited Profile </p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#333;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Sent feedback</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#0678a5;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Chated the admin</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#042d7a;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Viewed history</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Edited Profile </p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#333;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Sent feedback</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#0678a5;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Chated the admin</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#042d7a;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Viewed history</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Edited Profile </p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#333;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Sent feedback</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#0678a5;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">11:00 pm .Today</i>
+                                <p class="text-muted">Chated the admin</p>
+                            </div>
+                        </div>
+                        <div class="history-item position-relative">
+                            <span class="border-circle position-absolute" style="background:#042d7a;"></span>
+                            <div class="me-2 mt-2 mb-2 bg-light ps-3 p-1 position-relative">
+                                <i class="position-absolute text-danger top-0 end-0 m-1 bi-x"></i>
+                                <i class="position-absolute text-small bottom-0 end-0 m-1">00.55 .Yesterday</i>
+                                <p class="text-muted">Viewed history</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+         </div>
+     </div>
+<br>
+<br>
+</div>
+<footer>
+    <div class="container">
+        <div class="row wrap-at-610">
+            <div class="col">
+                <h6 class="text-light bi bi-geo-alt-fill">
+                    99-40223 Kadongo
+                </h6>
+                <div>
+                    <a href="http://youtube.com" class="text-light"><h6><i class="bi bi-youtube"></i> @ceojalsoft</h6></a>
+                 </div>
+                 <div>
+                    <a href="mailto: d34calvo@gmail.com" class="text-light"><h6><i class="bi bi-envelope-open"></i> d34calvo@gmail.com</h6></a>
+                 </div>
+            </div>
+            <div class="col text-info">
+                <h4 class="m-3"><i>Quick links</i></h4>
+                <div>
+                    <a href="tel:0799311413"><span id="phone"><i class="bi bi-telephone-fill text-info"></i><span class="text-info">&nbsp;</span>+254 799 311 413</span></a>
+                </div>
+                <div>
+                    <a href="http://facebook.com" target="_blank"><span id="phone"><i class="bi bi-facebook text-info"></i><span class="text-info">&nbsp;</span>@hansjalikoa</span></a>
+                </div>
+                <div>
+                    <a href="http://whatsapp.com" target="_blank" rel="noopener noreferrer"><span id="phone"><i class="bi bi-whatsapp text-info"></i><span class="text-info">&nbsp;</span>0799311413</span></a>
+                </div>
+                <div>
+                    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><span id="phone"><i class="bi bi-twitter text-info"></i><span class="text-info">&nbsp;</span>@ceojalsoft</span></a>
+                </div>
+                <div>
+                    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><span id="phone"><i class="bi bi-linkedin text-info"></i><span class="text-info">&nbsp;</span>@jalikoa</span></a>
+                </div>
+                <div>
+                    <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><span id="phone"><i class="bi bi-instagram text-info"></i><span class="text-info">&nbsp;</span>@jalsoft</span></a>
+                </div>
+                <div>
+                    <a href="http://discord.com" target="_blank" rel="noopener noreferrer"><span id="phone"><i class="bi bi-discord text-info"></i><span class="text-info">&nbsp;</span>@ceojalsoft</span></a>
+                </div>
+            </div>
+        </div>
+        <p class="text-light m-3 text-center">
+            Designed and developed by Calvince Owino CEO JalSoft
+        </p>
+    </div>
+
+</footer>       
+</body>
+<script src="../assets/js/aos.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/jquery-3.6.0.min.js"></script>
+<script src="../assets/js/sweetalert2@11.js"></script>
+</html>

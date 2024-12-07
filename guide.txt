@@ -1,0 +1,4 @@
+This should aid in the development of the project
+
+
+For any thing involving the configuration of the path the file system should be used to avoid giving wrong paths of the files
